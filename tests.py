@@ -1,7 +1,7 @@
 # from subdirectory.filename import function_name
 # import unittest
-from functions.get_files_content import get_file_content
-from functions.run_python_file import run_python_file
+# from functions.get_files_content import get_file_content
+# from functions.run_python_file import run_python_file
 # from functions.get_files_info import get_files_info
 
 # result = get_files_info("calculator", ".")
@@ -26,10 +26,10 @@ from functions.run_python_file import run_python_file
 # print(write_file("calculator", "pkg/morelorem.txt", "lorem ipsum dolor sit amet"))
 # print(write_file("calculator", "/tmp/temp.txt", "this should not be allowed"))
 
-print(run_python_file("calculator", "main.py"))
-print(run_python_file("calculator", "tests.py"))
-print(run_python_file("calculator", "../main.py"))
-print(run_python_file("calculator", "nonexistent.py"))
+# print(run_python_file("calculator", "main.py"))
+# print(run_python_file("calculator", "tests.py"))
+# print(run_python_file("calculator", "../main.py"))
+# print(run_python_file("calculator", "nonexistent.py"))
 # class TestGetFilesInfo(unittest.TestCase):
 #     def test_get_files_info(self):
 #         result = get_files_info("calculator", ".")
